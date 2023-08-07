@@ -24,3 +24,7 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+wrapper {
+	gradleVersion = '9.0.1' // Gradle 버전 변경
+}
