@@ -33,3 +33,6 @@
 # 6 스프링 DB 접근 기술
 1. H2 데이터베이스 설치
 2. 순수 JDBC
+3. 스프링 JdbcTemplate
+4. JPA
+5. 스프링 데이터 JPA
