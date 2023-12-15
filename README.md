@@ -21,6 +21,9 @@
 4. 회원 서비스 개발
 5. 회원 서비스 테스트
 
+   <img width="667" alt="image" src="https://github.com/seunghyun333/Spring-basic/assets/128073991/868358ac-8ebd-4247-a144-fe35ef95bb08">
+
+
 # 4 스프링 빈과 의존관계
 1. 컴포넌트 스캔과 자동 의존관계 설정
 2. 자바코드로 직접 스프링 빈 등록하기
