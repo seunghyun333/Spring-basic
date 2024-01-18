@@ -23,3 +23,11 @@
        WebApplicationContext은 <init param>을 읽어 빈을 등록한다.
 
 
+
+# 서버가 켜질 때
+1. contextLoadListener에 의해 ApplicationContext가 생성되고 이 context는 Service, Dao 단의 빈을 등록한다. [root-context.xml]
+2. DispatcherServlet에 의해 webApplicationContext가 생성되고 이 context는 Controller 단의 빈을 등록한다. [servelt-context.xml]
+
+   1 -> 2 : 접근 불가
+   2 -> 1 : 접근 가능 
+
